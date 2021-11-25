@@ -79,11 +79,12 @@ class _HomePageState extends State<HomePage> {
                             ],
                           ),
                         ),
-                        Divider(
-                          indent: 3,
-                          endIndent: 320,
-                          thickness: 4,
-                          color: Colors.blue,
+                        SizedBox(
+                          width: 20,
+                          child: Divider(
+                            thickness: 4,
+                            color: Colors.blue,
+                          ),
                         )
                       ],
                     ),
